@@ -1,7 +1,6 @@
 import { FaTimes } from 'react-icons/fa'
 import { FaExclamation } from 'react-icons/fa'
 
-
 const Task = ({ task, onDelete, onToggle}) => {
   return (
     <div className={`task ${task.important ? 'important' : ''}`}>
